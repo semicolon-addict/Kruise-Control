@@ -1,6 +1,6 @@
 import { useState, useEffect } from "react";
-import { Shield } from "lucide-react";
 import { motion } from "framer-motion";
+import logoPng from "@assets/favicon_1772551129844.png";
 
 export function Navbar() {
   const [scrolled, setScrolled] = useState(false);
@@ -28,7 +28,7 @@ export function Navbar() {
     >
       <div className="max-w-7xl mx-auto px-6 md:px-8 flex items-center justify-between">
         <div className="flex items-center gap-3 cursor-pointer" onClick={() => window.scrollTo({ top: 0, behavior: "smooth" })}>
-          <Shield className="w-8 h-8 text-[#D4AF37]" strokeWidth={1.5} />
+          <img src={logoPng} alt="Kruise Control Logo" className="h-12 w-auto object-contain" />
           <span className="font-serif text-2xl font-semibold tracking-wide text-white">
             Kruise Control
           </span>

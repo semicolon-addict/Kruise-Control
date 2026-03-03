@@ -1,11 +1,11 @@
-import { Shield } from "lucide-react";
+import logoPng from "@assets/favicon_1772551129844.png";
 
 export function Footer() {
   return (
     <footer className="bg-[#0B0B0C] border-t border-[#222] py-12">
       <div className="max-w-7xl mx-auto px-6 md:px-8 flex flex-col md:flex-row items-center justify-between gap-6">
         <div className="flex items-center gap-2">
-          <Shield className="w-6 h-6 text-[#D4AF37]" strokeWidth={1.5} />
+          <img src={logoPng} alt="Kruise Control Logo" className="h-8 w-auto object-contain" />
           <span className="font-serif text-lg font-semibold tracking-wide text-white">
             Kruise Control
           </span>
