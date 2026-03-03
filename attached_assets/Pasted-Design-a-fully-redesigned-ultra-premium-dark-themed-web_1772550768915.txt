@@ -1,0 +1,215 @@
+Design a fully redesigned ultra-premium, dark-themed website for Kruise Control, a strategic fleet management and vehicle asset consulting company.
+
+This is NOT a startup SaaS look.
+This is an executive, high-authority fleet command brand.
+
+The website must feel like:
+
+Private aviation operations control × Rolls-Royce luxury × enterprise SaaS precision.
+
+🏢 Company Purpose (Must Be Reflected in Content Structure)
+
+The Company engages in:
+
+Fleet management services
+
+Vehicle acquisition consulting
+
+Maintenance coordination
+
+Compliance tracking
+
+Telematics reporting
+
+Asset lifecycle management
+
+Vendor oversight
+
+Strategic fleet consulting services
+
+Vehicle ownership, leasing, and management (where permitted by law)
+
+The messaging should be executive, precise, and authoritative — no hype, no buzzwords.
+
+🎨 FINAL LOCKED COLOR SYSTEM
+
+Primary Background:
+Obsidian Matte Black — #0B0B0C
+
+Section Background:
+Midnight Navy — #111827
+
+Primary Accent (Brand Gold):
+Royal Metallic Gold — #D4AF37
+
+Gold Gradient (for CTA & premium accents only):
+linear-gradient(135deg, #F5D97B, #D4AF37, #A67C00)
+
+Text Colors:
+Primary Text — #F8FAFC
+Secondary Text — #A1A1AA
+
+Rules:
+
+Never use bright yellow
+
+Never use neon tones
+
+Never use pure white backgrounds
+
+Gold must feel metallic, not flat
+
+🧱 FULL WEBSITE STRUCTURE (Clear Redesign)
+1. Hero Section
+
+Background: Matte black with subtle radial glow.
+
+Headline:
+“Command Your Fleet with Precision.”
+
+Subtext:
+Strategic fleet intelligence, asset optimization, and executive-level operational control.
+
+Primary CTA:
+Gold gradient button (solid)
+
+Secondary CTA:
+Gold outline button
+
+Minimal layout. No clutter. No stock-style SaaS graphics.
+
+2. Strategic Services Section
+
+Background: Midnight navy.
+
+Elegant structured cards with:
+
+Thin gold top border
+
+Soft shadow
+
+Subtle hover glow
+
+Services must include:
+
+Fleet Management
+
+Vehicle Acquisition Consulting
+
+Maintenance & Compliance Coordination
+
+Telematics & Reporting
+
+Asset Lifecycle Optimization
+
+Vendor Oversight
+
+Leasing & Ownership Structuring
+
+Cards should look premium and structured — not playful.
+
+3. Operational Excellence Section
+
+Split layout.
+
+Left:
+Bold serif heading with thin gold divider.
+
+Right:
+Bullet advantages:
+
+Cost optimization
+
+Regulatory precision
+
+Lifecycle control
+
+Vendor accountability
+
+Data-driven reporting
+
+Minimal text. High authority tone.
+
+4. Enterprise Solutions Section
+
+Deep navy background.
+
+Three executive blocks:
+
+Fleet Ownership Models
+
+Leasing Frameworks
+
+Compliance Architecture
+
+Structured, serious, enterprise-grade presentation.
+
+5. Executive CTA Section
+
+Matte black background.
+
+Centered layout.
+
+Headline:
+“Elevate Your Fleet Strategy.”
+
+Thin gold divider above text.
+
+Single strong gold CTA button.
+
+No distractions.
+
+🧭 Navbar Redesign
+
+Transparent on hero.
+
+On scroll:
+Midnight navy background with subtle blur.
+
+Logo left.
+Minimal navigation links.
+Gold underline hover animation (thin and elegant).
+
+✨ UI DESIGN RULES
+
+Large spacing
+
+Slight border radius (6px–8px max)
+
+300ms smooth transitions
+
+Very subtle gold glow only on hover
+
+No heavy animations
+
+No startup-style illustrations
+
+No excessive gradients
+
+Gold must be used sparingly and intentionally.
+
+🖋 Typography
+
+Headings:
+Elegant serif for luxury authority.
+
+Body:
+Clean modern sans-serif.
+
+Slight letter spacing for premium feel.
+
+🏁 Overall Impression
+
+The redesigned website must feel:
+
+Authoritative
+
+Executive
+
+Controlled
+
+High-trust
+
+Operationally elite
+
+The brand should look like a fleet command authority — not a tech startup.
