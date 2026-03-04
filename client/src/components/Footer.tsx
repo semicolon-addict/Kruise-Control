@@ -25,9 +25,9 @@ export function Footer() {
             {/* Logo */}
             <div className="flex items-center gap-3">
               <img
-                src={logoPng}
+                src="/favicon.png"
                 alt="Kruise Control Logo"
-                className="h-9 w-auto object-contain"
+                className="h-16 w-auto object-contain"
               />
               <span className="font-serif text-lg font-semibold tracking-wide text-[#F8FAFC]">
                 Kruise Control

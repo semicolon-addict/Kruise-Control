@@ -1,9 +1,11 @@
 import { useState, useEffect } from "react";
 import { motion } from "framer-motion";
+import { Menu, X } from "lucide-react";
 import logoPng from "@assets/favicon_1772551129844.png";
 
 export function Navbar() {
   const [scrolled, setScrolled] = useState(false);
+  const [mobileOpen, setMobileOpen] = useState(false);
 
   useEffect(() => {
     const handleScroll = () => {
@@ -17,6 +19,7 @@ export function Navbar() {
     document
       .getElementById("contact")
       ?.scrollIntoView({ behavior: "smooth" });
+    setMobileOpen(false);
   };
 
   return (
@@ -39,16 +42,16 @@ export function Navbar() {
           }
         >
           <img
-            src={logoPng}
+            src="/favicon.png"
             alt="Kruise Control Logo"
-            className="h-12 w-auto object-contain"
+            className="h-16 w-auto object-contain"
           />
           <span className="font-serif text-2xl font-semibold tracking-wide text-white">
             Kruise Control
           </span>
         </div>
 
-        {/* Navigation */}
+        {/* Desktop Navigation */}
         <nav className="hidden md:flex items-center gap-10">
           {["Services", "Excellence", "Enterprise"].map(
             (item) => (
@@ -70,7 +73,44 @@ export function Navbar() {
             Client Portal
           </button>
         </nav>
+
+        {/* Mobile Hamburger */}
+        <button
+          onClick={() => setMobileOpen(!mobileOpen)}
+          className="md:hidden text-white"
+        >
+          {mobileOpen ? (
+            <X className="w-7 h-7" />
+          ) : (
+            <Menu className="w-7 h-7" />
+          )}
+        </button>
       </div>
+
+      {/* Mobile Menu */}
+      {mobileOpen && (
+        <div className="md:hidden px-6 pb-6 pt-6 backdrop-blur-xl bg-[#0B0B0C]/90 border-t border-[#D4AF37]/10">
+          <div className="flex flex-col gap-6">
+            {["Services", "Excellence", "Enterprise"].map((item) => (
+              <a
+                key={item}
+                href={`#${item.toLowerCase()}`}
+                onClick={() => setMobileOpen(false)}
+                className="text-sm text-[#A1A1AA] hover:text-[#D4AF37] transition-colors"
+              >
+                {item}
+              </a>
+            ))}
+
+            <button
+              onClick={scrollToContact}
+              className="text-sm font-medium border border-[#D4AF37]/50 text-[#D4AF37] px-5 py-2 rounded-[6px] backdrop-blur-md bg-[#D4AF37]/5 hover:bg-[#D4AF37]/10 transition-all duration-300"
+            >
+              Client Portal
+            </button>
+          </div>
+        </div>
+      )}
     </motion.header>
   );
 }
